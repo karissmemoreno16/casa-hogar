@@ -7,9 +7,9 @@ body {
     color: #333;
 }
 
-header, nav, footer {
+header, nav {
     background-color: #004d7a;
-    color: white;
+    color: #fff;
     padding: 10px 20px;
 }
 
@@ -18,6 +18,7 @@ nav ul {
     display: flex;
     gap: 15px;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -41,12 +42,4 @@ main {
 
 h1, h2 {
     color: #004d7a;
-}
-
-a.button {
-    background-color: #007acc;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 4px;
-    text-decoration: none;
 }
